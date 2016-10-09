@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary                 = "This is the Chartbeat iOS SDK -- providing a library for iOS applications so they can send tracking events to Chartbeat."
   s.homepage                = "https://chartbeat.com/"
   s.author                  = { "Chartbeat" => "support@chartbeat.com" }
-  s.source                  = { :git => "https://github.com/GiarcEnoredlac/chartbeat_iphone_sdk.git", :tag => "1.0" }
+  s.source                  = { :git => "https://github.com/GiarcEnoredlac/cbiossdk.git", :tag => "1.0" }
 
   s.platform                = :ios, '7.0'
   s.requires_arc            = true
