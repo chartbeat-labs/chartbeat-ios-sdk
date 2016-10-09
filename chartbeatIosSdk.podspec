@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author                  = { "Chartbeat" => "support@chartbeat.com" }
   s.source                  = { :git => "https://github.com/GiarcEnoredlac/cbiossdk.git", :tag => "1.0" }
 
-  s.platform                = :ios, '7.0'
+  s.platform                = :ios, '10.0'
   s.requires_arc            = true
   s.public_header_files     = "Chartbeat.framework/**/*.h"
   s.vendored_frameworks     = "Chartbeat.framework"
