@@ -1,5 +1,7 @@
-# cbiossdk
-for cocoapods implementation
+# Chartbeat iOS SDK
+
+Cocoapods implementation
+
 <title>INSTRUCTIONS</title></head><body><article class="markdown-body"><h1>
 <a id="user-content-introduction" class="anchor" href="#introduction" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Introduction</h1>
 
