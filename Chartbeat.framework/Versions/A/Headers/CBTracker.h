@@ -29,6 +29,7 @@ typedef NS_ENUM(NSUInteger, CBTrackerLogLevel) {
 
 extern NSString * const kCBSDKVerion;
 extern NSString * const kCBPersistenTokenKey;
+extern NSString * const kCBIosUserAgent;
 
 extern uint const kCBNumWordsForSessionKey;
 extern int const kDecayDelay;
@@ -229,7 +230,8 @@ extern int const kInitialPingInterval;
 @property (nonatomic) NSString * subDomain;
 @property (nonatomic) NSString * userAgent;
 @property (nonatomic) NSDictionary *extraParams;
-@property (nonatomic) BOOL firstPing; 
+@property (nonatomic) BOOL firstPing;
+@property (nonatomic, readonly) double initializationTime;
 
 /**
  *  turn debug mode on to enable logs and asserts to help with integration,
