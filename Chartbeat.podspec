@@ -5,16 +5,16 @@ Pod::Spec.new do |s|
   s.summary                 = "This is the Chartbeat iOS SDK -- providing a library for iOS applications so they can send tracking events to Chartbeat."
   s.requires_arc            = true
 
-  s.version                 = "1.2.3"
+  s.version                 = "1.2.4"
 
   s.license                 = { :type => "MIT", :file => "LICENSE" }
-  
+
   s.author                  = { "Chartbeat" => "support@chartbeat.com" }
 
   s.homepage                = "https://chartbeat.com/"
 
   s.vendored_frameworks     = "Chartbeat.framework"
-  s.source                  = { :git => "https://github.com/chartbeat-labs/chartbeat-ios-sdk.git", :tag => "1.2.3" }
+  s.source                  = { :git => "https://github.com/chartbeat-labs/chartbeat-ios-sdk.git", :tag => "1.2.4" }
 
   s.frameworks              = 'SystemConfiguration', 'MediaPlayer'
 
