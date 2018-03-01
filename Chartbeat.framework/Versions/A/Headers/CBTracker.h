@@ -11,23 +11,23 @@
 #import <MediaPlayer/MediaPlayer.h>
 
 typedef NS_ENUM(NSUInteger, CBTrackerStatus) {
-    
+
     CBTrackerStatusNotStarted       = 0,
     CBTrackerStatusUserPaused       = 1, // user manually called stopped the tracker
     CBTrackerStatusStarted          = 2
-    
+
 };
 
 typedef NS_ENUM(NSUInteger, CBTrackerLogLevel) {
-    
+
     CBTrackerLogLevelVerbose        = 0,
     CBTrackerLogLevelDebug          = 1,
     CBTrackerLogLevelWarning        = 2,
     CBTrackerLogLevelError          = 3
-    
+
 };
 
-extern NSString * const kCBSDKVerion;
+extern NSString * const kCBSDKVersion;
 extern NSString * const kCBPersistenTokenKey;
 extern NSString * const kCBIosUserAgent;
 
@@ -114,7 +114,7 @@ extern int const kInitialPingInterval;
     uint engagedSecondsSinceLastPing;
     uint engagementWindow;
     CBTracker *videoTracker;
-    
+
     /**
      * Is the tracker currently sending pings?
      */
@@ -250,4 +250,3 @@ extern int const kInitialPingInterval;
 @property (nonatomic, assign, readonly) CBTrackerStatus status;
 
 @end
-

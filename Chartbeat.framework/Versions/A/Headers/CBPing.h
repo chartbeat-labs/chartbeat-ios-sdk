@@ -76,6 +76,7 @@ extern NSString * const kCBVideoThumbnailKey;
              userWrote:(BOOL)userWrote
         engagedSeconds:(uint)engagedSeconds
 engagedSecondsSinceLastPing:(uint)engagedSecondsSinceLastPing
+    pingEndpointVersion:(uint)pingEndpointVersion
 mediaPlayerTracker:(MediaPlayerTracker *) mediaPlayerTracker
                  sdkVersion:(NSString *)sdkVersion
     extraParams:(NSDictionary *)extraParams
