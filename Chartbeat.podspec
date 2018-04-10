@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary                 = "This is the Chartbeat iOS SDK -- providing a library for iOS applications so they can send tracking events to Chartbeat."
   s.requires_arc            = true
 
-  s.version                 = "1.2.6"
+  s.version                 = "1.3-beta1"
 
   s.license                 = { :type => "MIT", :file => "LICENSE" }
 
