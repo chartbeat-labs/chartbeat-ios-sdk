@@ -201,7 +201,11 @@ extern int const kInitialPingInterval;
 - (BOOL)trackView:(id)view viewId:(NSString *)viewId_ title:(NSString *)title_;
 
 - (void)setZones:(NSArray *)zones;
-- (void)setAppReferrer:(NSString *)appReferrer;- (void)setLocation:(CLLocation *)location;
+- (void)setAppReferrer:(NSString *)appReferrer;
+
+- (void)setLocation:(CLLocation *)location;
+
+- (void)setPushReferrer:(NSString *)pushReferrer;
 - (void)userEngaged:(BOOL)writing;
 
 /**
