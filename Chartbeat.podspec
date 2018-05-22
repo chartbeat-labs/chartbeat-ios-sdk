@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage                = "https://chartbeat.com/"
 
   s.vendored_frameworks     = "Chartbeat.framework"
-  s.source                  = { :git => "https://github.com/chartbeat-labs/chartbeat-ios-sdk.git", :tag => "1.2.6" }
+  s.source                  = { :git => "https://github.com/chartbeat-labs/chartbeat-ios-sdk.git", :tag => "1.3-beta1" }
 
   s.frameworks              = 'SystemConfiguration', 'MediaPlayer'
 
