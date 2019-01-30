@@ -52,9 +52,9 @@
 struct sockaddr_in;
 
 typedef enum {
-	NotReachable = 0,
-	ReachableViaWiFi,
-	ReachableViaWWAN
+	CBNotReachable = 0,
+	CBReachableViaWiFi,
+	CBReachableViaWWAN
 } CBNetworkStatus;
 #define kCBReachabilityChangedNotification @"kCBNetworkReachabilityChangedNotification"
 
