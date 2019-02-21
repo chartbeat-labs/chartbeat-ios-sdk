@@ -99,6 +99,7 @@ extern int const kInitialPingInterval;
     uint lastInterval;
     uint initialInterval;
     NSString *userReturnFrequencyHex;
+    NSString *subscriptionState;
     BOOL active;
     CBReachability * reachability;
     CLLocation * location;
@@ -207,6 +208,10 @@ extern int const kInitialPingInterval;
 
 - (void)setPushReferrer:(NSString *)pushReferrer;
 - (void)userEngaged:(BOOL)writing;
+- (void)setUserPaid;
+- (void)setUserLoggedIn;
+- (void)setUserAnonymous;
+
 
 /**
  * Set the subDomain name to report tracking data to. Unless you have specific

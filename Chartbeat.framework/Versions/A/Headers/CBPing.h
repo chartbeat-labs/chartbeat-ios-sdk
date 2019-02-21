@@ -82,6 +82,7 @@ mediaPlayerTracker:(MediaPlayerTracker *) mediaPlayerTracker
     siteVisitDepth:(long)siteVisitDepth
     siteVisitReferrer:(NSString *)siteVisitReferrer
     siteVisitUid:(NSString *)siteVisitUid
+    subscriptionState:(NSString *)subscriptionState
     extraParams:(NSDictionary *)extraParams
   previousSessionToken:(NSString *)previousSessionToken;
 
