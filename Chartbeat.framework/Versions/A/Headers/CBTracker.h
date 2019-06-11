@@ -27,7 +27,7 @@ typedef NS_ENUM(NSUInteger, CBTrackerLogLevel) {
 
 };
 
-extern NSString * const kCBSDKVersion;
+extern NSString * const kChartbeatSDKVersion;
 extern NSString * const kCBPersistenTokenKey;
 extern NSString * const kCBIosUserAgent;
 
