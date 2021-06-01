@@ -6,7 +6,6 @@
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
 #import <CoreGraphics/CoreGraphics.h>
-#import "MediaPlayerTracker.h"
 
 extern NSString * const CBPingURL;
 extern NSString * const kCBPagePathKeyForVideo;
@@ -77,17 +76,13 @@ extern NSString * const kCBVideoThumbnailKey;
         engagedSeconds:(uint)engagedSeconds
 engagedSecondsSinceLastPing:(uint)engagedSecondsSinceLastPing
     pingEndpointVersion:(uint)pingEndpointVersion
-mediaPlayerTracker:(MediaPlayerTracker *) mediaPlayerTracker
     sdkVersion:(NSString *)sdkVersion
     siteVisitDepth:(long)siteVisitDepth
     siteVisitReferrer:(NSString *)siteVisitReferrer
     siteVisitUid:(NSString *)siteVisitUid
     subscriptionState:(NSString *)subscriptionState
-    extraParams:(NSDictionary *)extraParams
   previousSessionToken:(NSString *)previousSessionToken;
 
 + (NSString *)urlEncode:(NSString *)str;
-+ (NSDictionary *) getVideoPingParams:(MediaPlayerTracker *)mediaPlayerTracker
-                               domain:(NSString *)domain;
 
 @end
