@@ -3,12 +3,15 @@ All notable changes to the Chartbeat iOS SDK  will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [1.4.8] - 2021-07-22
+### Added
+- Remove arm64 restraint in simulator
 ## [1.4.7] - 2021-07-08
 ### Added
 - Remove file MediaPlayerTracker.h to suppress warning "'MPMoviePlayerController' is deprecated: first deprecated in iOS 9.0 - Use AVPlayerViewController in AVKit"
 ## [1.4.6] - 2021-06-01
 ### Added
-- Removeed video support from ios sdk
+- Removed video support from ios sdk
 ## [1.4.5] - 2021-02-26
 ### Added
 - Addressed build issue with arm64 from 1.4.4 update
