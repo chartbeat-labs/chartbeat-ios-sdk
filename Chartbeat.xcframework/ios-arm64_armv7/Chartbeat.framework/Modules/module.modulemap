@@ -1,5 +1,5 @@
 framework module Chartbeat {
-  umbrella header "CBTracker.h"
+  umbrella header "Chartbeat.h"
 
   export *
   module * { export * }
