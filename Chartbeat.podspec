@@ -13,11 +13,8 @@ Pod::Spec.new do |s|
 
   s.homepage                = "https://chartbeat.com/"
 
-  s.vendored_frameworks     = "Chartbeat.framework"
-  s.source                  = { :git => "https://github.com/chartbeat-labs/chartbeat-ios-sdk.git", :tag => "1.4.9" }
-
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.vendored_frameworks     = "Chartbeat.xcframework"
+  s.source                  = { :git => "https://github.com/chartbeat-labs/chartbeat-ios-sdk.git", :tag => "1.5.0-rc1" }
 
   s.frameworks              = 'SystemConfiguration', 'MediaPlayer'
 
