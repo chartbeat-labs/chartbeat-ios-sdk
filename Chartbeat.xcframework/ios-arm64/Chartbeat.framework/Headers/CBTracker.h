@@ -222,6 +222,18 @@ extern int const kInitialPingInterval;
  */
 - (void)setSubDomain:(NSString *)subDomain;
 
+/**
+ * Set the idSync map to send through custom data and fields in the form of a key
+ *  value pair to link to other products or data sets in your ecosystem.
+ *  For example, with ID Sync you can parse your Google Analytics ID from your
+ *  Google Analytics cookie and link it to our ID Sync variable in your Chartbeat
+ *  code, then your Datastream data will contain your Charbeat data along with your
+ *  GA ID as an additional data column in your feed
+ *
+ * @param idSync The idSync map to send to.
+ */
+- (void)setIdSync:(NSDictionary<NSString *, NSString *> *)idSync;
+
 @property (nonatomic, readonly) uint uid; // Your chartbeat account id
 @property (nonatomic) NSString * appid;
 @property (nonatomic) NSString * suffix;
@@ -239,6 +251,7 @@ extern int const kInitialPingInterval;
 @property (nonatomic) NSString * subDomain;
 @property (nonatomic) NSString * userAgent;
 @property (nonatomic) NSDictionary *extraParams;
+@property (nonatomic) NSDictionary<NSString *, NSString *> *idSync;
 @property (nonatomic) BOOL firstPing;
 @property (nonatomic, readonly) double initializationTime;
 

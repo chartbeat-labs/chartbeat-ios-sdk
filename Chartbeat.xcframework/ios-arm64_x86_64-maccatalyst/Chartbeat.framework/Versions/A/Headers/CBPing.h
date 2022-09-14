@@ -28,6 +28,9 @@ extern NSString * const kCBVideoDurationKey;
 extern NSString * const kCBVideoStateKey;
 extern NSString * const kCBVideoThumbnailKey;
 
+extern const NSNotificationName kCBDidSendPingRequestNotification;
+extern NSString * const kCBDidSendPingRequestNotificationURLKey;
+
 @interface CBPing : NSObject {
   /**
    * Did last ping result in an error?
@@ -81,7 +84,8 @@ engagedSecondsSinceLastPing:(uint)engagedSecondsSinceLastPing
     siteVisitReferrer:(NSString *)siteVisitReferrer
     siteVisitUid:(NSString *)siteVisitUid
     subscriptionState:(NSString *)subscriptionState
-  previousSessionToken:(NSString *)previousSessionToken;
+  previousSessionToken:(NSString *)previousSessionToken
+        idSync:(NSDictionary<NSString *, NSString *> *)idSync;
 
 + (NSString *)urlEncode:(NSString *)str;
 
