@@ -42,8 +42,6 @@ extern NSString * const kCBDidSendPingRequestNotificationURLKey;
    * If not null, don't send pings until the given date.
    */
   NSDate* lockOutEnd;
-
-  NSURLConnection *theConnection;
 }
 
 @property (nonatomic) BOOL referrerSent;
