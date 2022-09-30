@@ -271,4 +271,11 @@ extern int const kInitialPingInterval;
  */
 @property (nonatomic, assign, readonly) CBTrackerStatus status;
 
+/**
+ *  if `usePong` is true SDK uses 'pong' server istead of 'ping'
+ *  default value is NO
+ */
+
+@property (nonatomic, assign) BOOL usePong;
+
 @end
