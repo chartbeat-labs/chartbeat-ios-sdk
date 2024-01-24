@@ -3,7 +3,7 @@ All notable changes to the Chartbeat iOS SDK  will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
-## [1.5.1] - 2024-01-24
+## [1.5.2] - 2024-01-24
 ### Added
 - Added Privacy Manifest
 - Bump minimum supported IOS version to 12
@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Switch to XCFramework
 - Add support for arm64 iOS Simulator
+- Does not include id-sync and video pong work from 1.5.1-rc versions
 
 ## [1.4.9] - 2021-07-29
 ### Added
