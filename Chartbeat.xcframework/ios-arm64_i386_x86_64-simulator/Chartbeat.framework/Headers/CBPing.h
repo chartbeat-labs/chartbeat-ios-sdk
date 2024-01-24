@@ -7,8 +7,7 @@
 #import <CoreLocation/CoreLocation.h>
 #import <CoreGraphics/CoreGraphics.h>
 
-extern NSString * const kCBPingURLBase;
-extern NSString * const kCBPongURLBase;
+extern NSString * const CBPingURL;
 extern NSString * const kCBPagePathKeyForVideo;
 extern NSString * const kCBPageDomainKeyForVideo;
 extern NSString * const kCBPageAppIdKeyForVideo;
@@ -29,10 +28,6 @@ extern NSString * const kCBVideoDurationKey;
 extern NSString * const kCBVideoStateKey;
 extern NSString * const kCBVideoThumbnailKey;
 
-extern const NSNotificationName kCBDidSendPingRequestNotification;
-extern const NSNotificationName kCBWillSendPingRequestNotification;
-extern NSString * const kCBDidSendPingRequestNotificationURLKey;
-
 @interface CBPing : NSObject {
   /**
    * Did last ping result in an error?
@@ -44,15 +39,16 @@ extern NSString * const kCBDidSendPingRequestNotificationURLKey;
    * If not null, don't send pings until the given date.
    */
   NSDate* lockOutEnd;
+
+  NSURLConnection *theConnection;
 }
 
 @property (nonatomic) BOOL referrerSent;
-@property (nonatomic, assign) BOOL usePong;
 
 - (void)trackAccountID:(uint)accountId 
              firstPing:(BOOL)firstPing
                 domain:(NSString *)domain 
-             subDomain:(NSString *)subDomain
+                subDomain:(NSString *)subDomain
                   path:(NSString *)path
                  title:(NSString *)title 
                    new:(BOOL)new
@@ -61,32 +57,31 @@ extern NSString * const kCBDidSendPingRequestNotificationURLKey;
           sessionToken:(NSString *)sessionToken 
              dwellTime:(uint)dwell 
          contentHeight:(CGFloat)height
-          contentWidth:(CGFloat)contentWidth
+         contentWidth:(CGFloat)contentWidth
         scrollPosition:(CGFloat)scrollPosition
-     maxScrollPosition:(uint)maxScrollPosition
+        maxScrollPosition:(uint)maxScrollPosition
               lastPath:(NSString *)lastPath
                authors:(NSArray *)authors
               sections:(NSArray *)sections
                  zones:(NSArray *)zones
-           appReferrer:(NSString *)appReferrer
+                 appReferrer:(NSString *)appReferrer
                  appid:(NSString *)appid
-             userAgent:(NSString *)userAgent
-          screenHeight:(float)screenHeight
-           screenWidth:(float)screenWidth
-              location:(CLLocation *)location
+                 userAgent:(NSString *)userAgent
+                 screenHeight:(float)screenHeight
+                 screenWidth:(float)screenWidth
+                location:(CLLocation *)location
              frequency:(NSString *)frequency
               userRead:(BOOL)userRead
              userWrote:(BOOL)userWrote
         engagedSeconds:(uint)engagedSeconds
 engagedSecondsSinceLastPing:(uint)engagedSecondsSinceLastPing
     pingEndpointVersion:(uint)pingEndpointVersion
-            sdkVersion:(NSString *)sdkVersion
-        siteVisitDepth:(long)siteVisitDepth
-     siteVisitReferrer:(NSString *)siteVisitReferrer
-          siteVisitUid:(NSString *)siteVisitUid
-     subscriptionState:(NSString *)subscriptionState
-  previousSessionToken:(NSString *)previousSessionToken
-                idSync:(NSDictionary<NSString *, NSString *> *)idSync;
+    sdkVersion:(NSString *)sdkVersion
+    siteVisitDepth:(long)siteVisitDepth
+    siteVisitReferrer:(NSString *)siteVisitReferrer
+    siteVisitUid:(NSString *)siteVisitUid
+    subscriptionState:(NSString *)subscriptionState
+  previousSessionToken:(NSString *)previousSessionToken;
 
 + (NSString *)urlEncode:(NSString *)str;
 
