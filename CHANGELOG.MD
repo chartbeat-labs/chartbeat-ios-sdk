@@ -3,9 +3,12 @@ All notable changes to the Chartbeat iOS SDK  will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
-## [1.5.4] - 2024-04-30
+## [1.5.5] - 2024-05-07
 ### Added
 - Added signature for Chartbeat.xcframework file
+
+## [1.5.4] - 2024-04-30
+- Incorrect push, ignore this version
 
 ## [1.5.3] - 2024-04-24
 ### Added
