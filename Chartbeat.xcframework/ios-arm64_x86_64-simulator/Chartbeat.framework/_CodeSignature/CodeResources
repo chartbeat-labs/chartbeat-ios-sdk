@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/CBPing.h</key>
 		<data>
-		mZT3JxqJ3XnXc1MyebMeDjm7sb8=
+		wE2Nii4CnLqY4MitEGOAQmAHw5g=
 		</data>
 		<key>Headers/CBReachability.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/CBTracker.h</key>
 		<data>
-		Y58BchBI4L6guMRlbTcuwrEH3SM=
+		WlFulPStrpU86Pu+a8CyNVKpZ58=
 		</data>
 		<key>Headers/Chartbeat.h</key>
 		<data>
@@ -22,32 +22,24 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qmArMCPrhq9xRCkacQFhL5IPe/8=
+		ZajgKmo2uMLJVkeiz4gHdNCHAso=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		LFcW1RVu+KdEIP4OJ0ATsx+zDfA=
+		05T2k/NInqGMbvBtJUpn5xJpZFE=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/CBPing.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mZT3JxqJ3XnXc1MyebMeDjm7sb8=
-			</data>
 			<key>hash2</key>
 			<data>
-			0PUTmWcXBKyhDdbWOpOTGpPMhwHPMnkQLHdxk9qNAqU=
+			Ju7VvKP6IyRRsxtzN1JfjIlJ7Zos3pCVvfH93ntnB/A=
 			</data>
 		</dict>
 		<key>Headers/CBReachability.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xIOzLG71Q/7iPeRKQ7RSphYlSQ4=
-			</data>
 			<key>hash2</key>
 			<data>
 			/eNAdWcvvG21eJwYxTX0oCWLUqf7dsFjFu9zwgiOpEc=
@@ -55,21 +47,13 @@
 		</dict>
 		<key>Headers/CBTracker.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Y58BchBI4L6guMRlbTcuwrEH3SM=
-			</data>
 			<key>hash2</key>
 			<data>
-			d2Voikb61fXF6HMpe+mqW4P6n4Nw7SJJms6o5rfEC6Q=
+			cG5iGSaEIwmyCc3s8LU/GwuDVTHoZcEiA4sscQ2hWu0=
 			</data>
 		</dict>
 		<key>Headers/Chartbeat.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7fZJggH2j5fAoRxdfjibtcxAuZU=
-			</data>
 			<key>hash2</key>
 			<data>
 			xx/+4l7Bvrf/DoYoHYiZ4i7cg5vPYirpAmzx7GaWqOQ=
@@ -77,13 +61,9 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LFcW1RVu+KdEIP4OJ0ATsx+zDfA=
-			</data>
 			<key>hash2</key>
 			<data>
-			cp0eEeXo0UbSnEnuyEQ0vFjgvt7ZeWmqqfYX/aamgZM=
+			JGK5jeAD5xN3bpKpTnaZ4qe2nhAUu+WZAsGzBCP0xrE=
 			</data>
 		</dict>
 	</dict>
