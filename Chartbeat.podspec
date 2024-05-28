@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks     = "Chartbeat.xcframework"
   s.resource_bundles        = {'Chartbeat_Privacy' => ['PrivacyInfo.xcprivacy']}
-  s.source                  = { :git => "https://github.com/chartbeat-labs/chartbeat-ios-sdk.git", :tag => "1.5.2" }
+  s.source                  = { :git => "https://github.com/chartbeat-labs/chartbeat-ios-sdk.git", :tag => "1.5.6" }
 
   s.frameworks              = 'SystemConfiguration', 'MediaPlayer'
   s.module_name             = 'Chartbeat'
