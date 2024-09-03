@@ -4,7 +4,7 @@
 <dict>
 	<key>NSPrivacyTrackingDomains</key>
 	<array>
-		<string>ping.chartbeat.com</string>
+		<string>ping.chartbeat.net</string>
 	</array>
 	<key>NSPrivacyTracking</key>
 	<true/>
