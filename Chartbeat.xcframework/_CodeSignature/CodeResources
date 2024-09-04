@@ -4,73 +4,41 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>ios-arm64_armv7/Chartbeat.framework/Chartbeat</key>
+		<key>ios-arm64/Chartbeat.framework/Chartbeat</key>
 		<data>
-		2/gIhv1RPJnqPhT//woS0yRxJDI=
+		VmiSOU4UsIPZBVNGx9EueMuyMNM=
 		</data>
-		<key>ios-arm64_armv7/Chartbeat.framework/Headers/CBPing.h</key>
+		<key>ios-arm64/Chartbeat.framework/Headers/CBPing.h</key>
 		<data>
-		mZT3JxqJ3XnXc1MyebMeDjm7sb8=
+		wE2Nii4CnLqY4MitEGOAQmAHw5g=
 		</data>
-		<key>ios-arm64_armv7/Chartbeat.framework/Headers/CBReachability.h</key>
+		<key>ios-arm64/Chartbeat.framework/Headers/CBReachability.h</key>
 		<data>
 		xIOzLG71Q/7iPeRKQ7RSphYlSQ4=
 		</data>
-		<key>ios-arm64_armv7/Chartbeat.framework/Headers/CBTracker.h</key>
+		<key>ios-arm64/Chartbeat.framework/Headers/CBTracker.h</key>
 		<data>
-		Y58BchBI4L6guMRlbTcuwrEH3SM=
+		WlFulPStrpU86Pu+a8CyNVKpZ58=
 		</data>
-		<key>ios-arm64_armv7/Chartbeat.framework/Headers/Chartbeat.h</key>
+		<key>ios-arm64/Chartbeat.framework/Headers/Chartbeat.h</key>
 		<data>
 		7fZJggH2j5fAoRxdfjibtcxAuZU=
 		</data>
-		<key>ios-arm64_armv7/Chartbeat.framework/Info.plist</key>
+		<key>ios-arm64/Chartbeat.framework/Info.plist</key>
 		<data>
-		KKnnu6IWhglS+RuQdjoZentcQsI=
+		pY7B0ToSqWL0F52JIAQB5OcXO/Q=
 		</data>
-		<key>ios-arm64_armv7/Chartbeat.framework/Modules/module.modulemap</key>
+		<key>ios-arm64/Chartbeat.framework/Modules/module.modulemap</key>
 		<data>
-		LFcW1RVu+KdEIP4OJ0ATsx+zDfA=
-		</data>
-		<key>ios-arm64_i386_x86_64-simulator/Chartbeat.framework/Chartbeat</key>
-		<data>
-		OljwJ2KMmYXXoJXnCMEJhcG7D7s=
-		</data>
-		<key>ios-arm64_i386_x86_64-simulator/Chartbeat.framework/Headers/CBPing.h</key>
-		<data>
-		mZT3JxqJ3XnXc1MyebMeDjm7sb8=
-		</data>
-		<key>ios-arm64_i386_x86_64-simulator/Chartbeat.framework/Headers/CBReachability.h</key>
-		<data>
-		xIOzLG71Q/7iPeRKQ7RSphYlSQ4=
-		</data>
-		<key>ios-arm64_i386_x86_64-simulator/Chartbeat.framework/Headers/CBTracker.h</key>
-		<data>
-		Y58BchBI4L6guMRlbTcuwrEH3SM=
-		</data>
-		<key>ios-arm64_i386_x86_64-simulator/Chartbeat.framework/Headers/Chartbeat.h</key>
-		<data>
-		7fZJggH2j5fAoRxdfjibtcxAuZU=
-		</data>
-		<key>ios-arm64_i386_x86_64-simulator/Chartbeat.framework/Info.plist</key>
-		<data>
-		qmArMCPrhq9xRCkacQFhL5IPe/8=
-		</data>
-		<key>ios-arm64_i386_x86_64-simulator/Chartbeat.framework/Modules/module.modulemap</key>
-		<data>
-		LFcW1RVu+KdEIP4OJ0ATsx+zDfA=
-		</data>
-		<key>ios-arm64_i386_x86_64-simulator/Chartbeat.framework/_CodeSignature/CodeResources</key>
-		<data>
-		ek+VDjW7S0a68bA4iRqpNvNWcbQ=
+		05T2k/NInqGMbvBtJUpn5xJpZFE=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Chartbeat.framework/Versions/A/Chartbeat</key>
 		<data>
-		8tht+0ROLOSx6AKw/yS5LBXaRa8=
+		X+cWcrdv6iUIUFjHfxVMNw+hpos=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Chartbeat.framework/Versions/A/Headers/CBPing.h</key>
 		<data>
-		mZT3JxqJ3XnXc1MyebMeDjm7sb8=
+		wE2Nii4CnLqY4MitEGOAQmAHw5g=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Chartbeat.framework/Versions/A/Headers/CBReachability.h</key>
 		<data>
@@ -78,7 +46,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Chartbeat.framework/Versions/A/Headers/CBTracker.h</key>
 		<data>
-		Y58BchBI4L6guMRlbTcuwrEH3SM=
+		WlFulPStrpU86Pu+a8CyNVKpZ58=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Chartbeat.framework/Versions/A/Headers/Chartbeat.h</key>
 		<data>
@@ -86,38 +54,70 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Chartbeat.framework/Versions/A/Modules/module.modulemap</key>
 		<data>
-		LFcW1RVu+KdEIP4OJ0ATsx+zDfA=
+		05T2k/NInqGMbvBtJUpn5xJpZFE=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Chartbeat.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		U8QuVKWGN6SsmlboF0Fqu3S1fd0=
+		vZ4ti196xsT5hMf7qlOHtjRI8R8=
+		</data>
+		<key>ios-arm64_x86_64-simulator/Chartbeat.framework/Chartbeat</key>
+		<data>
+		8t132NQTD615b1tA8ugsknfquF4=
+		</data>
+		<key>ios-arm64_x86_64-simulator/Chartbeat.framework/Headers/CBPing.h</key>
+		<data>
+		wE2Nii4CnLqY4MitEGOAQmAHw5g=
+		</data>
+		<key>ios-arm64_x86_64-simulator/Chartbeat.framework/Headers/CBReachability.h</key>
+		<data>
+		xIOzLG71Q/7iPeRKQ7RSphYlSQ4=
+		</data>
+		<key>ios-arm64_x86_64-simulator/Chartbeat.framework/Headers/CBTracker.h</key>
+		<data>
+		WlFulPStrpU86Pu+a8CyNVKpZ58=
+		</data>
+		<key>ios-arm64_x86_64-simulator/Chartbeat.framework/Headers/Chartbeat.h</key>
+		<data>
+		7fZJggH2j5fAoRxdfjibtcxAuZU=
+		</data>
+		<key>ios-arm64_x86_64-simulator/Chartbeat.framework/Info.plist</key>
+		<data>
+		ZajgKmo2uMLJVkeiz4gHdNCHAso=
+		</data>
+		<key>ios-arm64_x86_64-simulator/Chartbeat.framework/Modules/module.modulemap</key>
+		<data>
+		05T2k/NInqGMbvBtJUpn5xJpZFE=
+		</data>
+		<key>ios-arm64_x86_64-simulator/Chartbeat.framework/_CodeSignature/CodeResources</key>
+		<data>
+		xt84QhJ+BhtaRpY1ByhlmC8rIiU=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>ios-arm64_armv7/Chartbeat.framework/Chartbeat</key>
+		<key>ios-arm64/Chartbeat.framework/Chartbeat</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2/gIhv1RPJnqPhT//woS0yRxJDI=
+			VmiSOU4UsIPZBVNGx9EueMuyMNM=
 			</data>
 			<key>hash2</key>
 			<data>
-			5Vvk1SxQ1ZfD4lDbjcNjcYMm4oPxCR2zR4zfKR2//vM=
+			j5JknwnBZ5EVGSv3KxvcsdOo5GGOc3G38nWfYKLlnic=
 			</data>
 		</dict>
-		<key>ios-arm64_armv7/Chartbeat.framework/Headers/CBPing.h</key>
+		<key>ios-arm64/Chartbeat.framework/Headers/CBPing.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mZT3JxqJ3XnXc1MyebMeDjm7sb8=
+			wE2Nii4CnLqY4MitEGOAQmAHw5g=
 			</data>
 			<key>hash2</key>
 			<data>
-			0PUTmWcXBKyhDdbWOpOTGpPMhwHPMnkQLHdxk9qNAqU=
+			Ju7VvKP6IyRRsxtzN1JfjIlJ7Zos3pCVvfH93ntnB/A=
 			</data>
 		</dict>
-		<key>ios-arm64_armv7/Chartbeat.framework/Headers/CBReachability.h</key>
+		<key>ios-arm64/Chartbeat.framework/Headers/CBReachability.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -128,18 +128,18 @@
 			/eNAdWcvvG21eJwYxTX0oCWLUqf7dsFjFu9zwgiOpEc=
 			</data>
 		</dict>
-		<key>ios-arm64_armv7/Chartbeat.framework/Headers/CBTracker.h</key>
+		<key>ios-arm64/Chartbeat.framework/Headers/CBTracker.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Y58BchBI4L6guMRlbTcuwrEH3SM=
+			WlFulPStrpU86Pu+a8CyNVKpZ58=
 			</data>
 			<key>hash2</key>
 			<data>
-			d2Voikb61fXF6HMpe+mqW4P6n4Nw7SJJms6o5rfEC6Q=
+			cG5iGSaEIwmyCc3s8LU/GwuDVTHoZcEiA4sscQ2hWu0=
 			</data>
 		</dict>
-		<key>ios-arm64_armv7/Chartbeat.framework/Headers/Chartbeat.h</key>
+		<key>ios-arm64/Chartbeat.framework/Headers/Chartbeat.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -150,114 +150,26 @@
 			xx/+4l7Bvrf/DoYoHYiZ4i7cg5vPYirpAmzx7GaWqOQ=
 			</data>
 		</dict>
-		<key>ios-arm64_armv7/Chartbeat.framework/Info.plist</key>
+		<key>ios-arm64/Chartbeat.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KKnnu6IWhglS+RuQdjoZentcQsI=
+			pY7B0ToSqWL0F52JIAQB5OcXO/Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			J3q5Dw1sVIJByvhUppqsmuFZzz7ad6/Yi4iwLQMmaDo=
+			CJpaZvdhvOBH065LtmAiSbB1fCQXjKd7BodVRwTgEss=
 			</data>
 		</dict>
-		<key>ios-arm64_armv7/Chartbeat.framework/Modules/module.modulemap</key>
+		<key>ios-arm64/Chartbeat.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LFcW1RVu+KdEIP4OJ0ATsx+zDfA=
+			05T2k/NInqGMbvBtJUpn5xJpZFE=
 			</data>
 			<key>hash2</key>
 			<data>
-			cp0eEeXo0UbSnEnuyEQ0vFjgvt7ZeWmqqfYX/aamgZM=
-			</data>
-		</dict>
-		<key>ios-arm64_i386_x86_64-simulator/Chartbeat.framework/Chartbeat</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OljwJ2KMmYXXoJXnCMEJhcG7D7s=
-			</data>
-			<key>hash2</key>
-			<data>
-			ZCIVib56/Z5g8j63sXqB6lxycB9hE4EX+WxElW367T4=
-			</data>
-		</dict>
-		<key>ios-arm64_i386_x86_64-simulator/Chartbeat.framework/Headers/CBPing.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mZT3JxqJ3XnXc1MyebMeDjm7sb8=
-			</data>
-			<key>hash2</key>
-			<data>
-			0PUTmWcXBKyhDdbWOpOTGpPMhwHPMnkQLHdxk9qNAqU=
-			</data>
-		</dict>
-		<key>ios-arm64_i386_x86_64-simulator/Chartbeat.framework/Headers/CBReachability.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xIOzLG71Q/7iPeRKQ7RSphYlSQ4=
-			</data>
-			<key>hash2</key>
-			<data>
-			/eNAdWcvvG21eJwYxTX0oCWLUqf7dsFjFu9zwgiOpEc=
-			</data>
-		</dict>
-		<key>ios-arm64_i386_x86_64-simulator/Chartbeat.framework/Headers/CBTracker.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Y58BchBI4L6guMRlbTcuwrEH3SM=
-			</data>
-			<key>hash2</key>
-			<data>
-			d2Voikb61fXF6HMpe+mqW4P6n4Nw7SJJms6o5rfEC6Q=
-			</data>
-		</dict>
-		<key>ios-arm64_i386_x86_64-simulator/Chartbeat.framework/Headers/Chartbeat.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7fZJggH2j5fAoRxdfjibtcxAuZU=
-			</data>
-			<key>hash2</key>
-			<data>
-			xx/+4l7Bvrf/DoYoHYiZ4i7cg5vPYirpAmzx7GaWqOQ=
-			</data>
-		</dict>
-		<key>ios-arm64_i386_x86_64-simulator/Chartbeat.framework/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qmArMCPrhq9xRCkacQFhL5IPe/8=
-			</data>
-			<key>hash2</key>
-			<data>
-			Z3lmKZZHFCn7TYHEaOHTfm79eh+Wb63JRhgMROFpOow=
-			</data>
-		</dict>
-		<key>ios-arm64_i386_x86_64-simulator/Chartbeat.framework/Modules/module.modulemap</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			LFcW1RVu+KdEIP4OJ0ATsx+zDfA=
-			</data>
-			<key>hash2</key>
-			<data>
-			cp0eEeXo0UbSnEnuyEQ0vFjgvt7ZeWmqqfYX/aamgZM=
-			</data>
-		</dict>
-		<key>ios-arm64_i386_x86_64-simulator/Chartbeat.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ek+VDjW7S0a68bA4iRqpNvNWcbQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			OnQj+n5zEMg8KAdHQBTYe2uPfdCMnqnxSz9Rdh4Y9kA=
+			JGK5jeAD5xN3bpKpTnaZ4qe2nhAUu+WZAsGzBCP0xrE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Chartbeat.framework/Chartbeat</key>
@@ -284,22 +196,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8tht+0ROLOSx6AKw/yS5LBXaRa8=
+			X+cWcrdv6iUIUFjHfxVMNw+hpos=
 			</data>
 			<key>hash2</key>
 			<data>
-			5GaGL5vjC+jJxj0b3vK01d2AQhJvGoTmk2YZ1nuZnA4=
+			CgwZS9EbHmwj0XggAsCc1JTdwAjSVB/2slVKfwzzJIE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Chartbeat.framework/Versions/A/Headers/CBPing.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mZT3JxqJ3XnXc1MyebMeDjm7sb8=
+			wE2Nii4CnLqY4MitEGOAQmAHw5g=
 			</data>
 			<key>hash2</key>
 			<data>
-			0PUTmWcXBKyhDdbWOpOTGpPMhwHPMnkQLHdxk9qNAqU=
+			Ju7VvKP6IyRRsxtzN1JfjIlJ7Zos3pCVvfH93ntnB/A=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Chartbeat.framework/Versions/A/Headers/CBReachability.h</key>
@@ -317,11 +229,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Y58BchBI4L6guMRlbTcuwrEH3SM=
+			WlFulPStrpU86Pu+a8CyNVKpZ58=
 			</data>
 			<key>hash2</key>
 			<data>
-			d2Voikb61fXF6HMpe+mqW4P6n4Nw7SJJms6o5rfEC6Q=
+			cG5iGSaEIwmyCc3s8LU/GwuDVTHoZcEiA4sscQ2hWu0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Chartbeat.framework/Versions/A/Headers/Chartbeat.h</key>
@@ -339,28 +251,116 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LFcW1RVu+KdEIP4OJ0ATsx+zDfA=
+			05T2k/NInqGMbvBtJUpn5xJpZFE=
 			</data>
 			<key>hash2</key>
 			<data>
-			cp0eEeXo0UbSnEnuyEQ0vFjgvt7ZeWmqqfYX/aamgZM=
+			JGK5jeAD5xN3bpKpTnaZ4qe2nhAUu+WZAsGzBCP0xrE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Chartbeat.framework/Versions/A/Resources/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			U8QuVKWGN6SsmlboF0Fqu3S1fd0=
+			vZ4ti196xsT5hMf7qlOHtjRI8R8=
 			</data>
 			<key>hash2</key>
 			<data>
-			gRH4Otq2YN4fI961X9HALa0jp+XqZBjDHTfDSxXnj1U=
+			elM/CryDgc7jvxFNMEoybSe1aO9+zUNyD1V04ZkiqVI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Chartbeat.framework/Versions/Current</key>
 		<dict>
 			<key>symlink</key>
 			<string>A</string>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/Chartbeat.framework/Chartbeat</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8t132NQTD615b1tA8ugsknfquF4=
+			</data>
+			<key>hash2</key>
+			<data>
+			SlAui13QEipMxkErWH5mwSX50WE4hJ11akhDWrW31cM=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/Chartbeat.framework/Headers/CBPing.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wE2Nii4CnLqY4MitEGOAQmAHw5g=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ju7VvKP6IyRRsxtzN1JfjIlJ7Zos3pCVvfH93ntnB/A=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/Chartbeat.framework/Headers/CBReachability.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xIOzLG71Q/7iPeRKQ7RSphYlSQ4=
+			</data>
+			<key>hash2</key>
+			<data>
+			/eNAdWcvvG21eJwYxTX0oCWLUqf7dsFjFu9zwgiOpEc=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/Chartbeat.framework/Headers/CBTracker.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WlFulPStrpU86Pu+a8CyNVKpZ58=
+			</data>
+			<key>hash2</key>
+			<data>
+			cG5iGSaEIwmyCc3s8LU/GwuDVTHoZcEiA4sscQ2hWu0=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/Chartbeat.framework/Headers/Chartbeat.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7fZJggH2j5fAoRxdfjibtcxAuZU=
+			</data>
+			<key>hash2</key>
+			<data>
+			xx/+4l7Bvrf/DoYoHYiZ4i7cg5vPYirpAmzx7GaWqOQ=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/Chartbeat.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZajgKmo2uMLJVkeiz4gHdNCHAso=
+			</data>
+			<key>hash2</key>
+			<data>
+			rhAW1j5CJaGTH1pVb6WE0Mfxti1Q/LHYXADExDRxCfo=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/Chartbeat.framework/Modules/module.modulemap</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			05T2k/NInqGMbvBtJUpn5xJpZFE=
+			</data>
+			<key>hash2</key>
+			<data>
+			JGK5jeAD5xN3bpKpTnaZ4qe2nhAUu+WZAsGzBCP0xrE=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/Chartbeat.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xt84QhJ+BhtaRpY1ByhlmC8rIiU=
+			</data>
+			<key>hash2</key>
+			<data>
+			DQlM7xRlWxHcWNGVw+PN/ajCz984ZlkSd/E1xNac5YY=
+			</data>
 		</dict>
 	</dict>
 	<key>rules</key>
