@@ -131,7 +131,7 @@ extern int const kInitialPingInterval;
 /**
  * Initialize the chartbeat tracker library. The tracker will not start until you call trackView
  *
- * @param uid Your chartbeat account id
+ * @param uid_ Your chartbeat account id
  * @param domain The domain name to report to.
  */
 - (BOOL)setupTrackerWithAccountId:(int)uid_ domain:(NSString *)domain;
@@ -150,7 +150,7 @@ extern int const kInitialPingInterval;
  *
  * @note Calling `trackView` will automatically set `active` to `YES`.
  *
- * @param active `NO` if user is inactive, `YES` otherwise.
+ * @param active_ `NO` if user is inactive, `YES` otherwise.
  */
 - (void)active:(BOOL)active_;
 
@@ -192,11 +192,11 @@ extern int const kInitialPingInterval;
  *
  * @param view The view being tracked (self.view when calling from your view
  *             controller)
- * @param viewId A string unique identifier for this view, starting with a slash
+ * @param viewId_  A string unique identifier for this view, starting with a slash
  *               (`'/'`), similar to a relative path on a website. It should
  *               generally look like a url -- for example,
  *               `/article/date/brand-new-driverless-cars`
- * @param title A string title for the content of the view. For example,
+ * @param title_ A string title for the content of the view. For example,
  *              `Driverless cars will overpower humanity`.
  */
 - (BOOL)trackView:(id)view viewId:(NSString *)viewId_ title:(NSString *)title_;
