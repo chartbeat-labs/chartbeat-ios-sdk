@@ -201,6 +201,35 @@ extern int const kInitialPingInterval;
  */
 - (BOOL)trackView:(id)view viewId:(NSString *)viewId_ title:(NSString *)title_;
 
+
+/**
+ * Start tracking a video view with the specified view, view ID, title, and video-specific parameters.
+ *
+ * @param view The view being tracked (self.view when calling from your view controller).
+ * @param viewId A string unique identifier for this view, starting with a slash ('/'), similar to a relative path on a website.
+ * @param title A string title for the content of the view.
+ * @param engagedTime The amount of video played, including ads, in seconds (E).
+ * @param duration The length of the video in milliseconds (_vd).
+ * @param playState The play state: "s1" = unplayed, "s2" = played, "s3" = paused/stopped, "s4" = finished (_vs).
+ * @param contentTime The amount of content played, excluding ads, in seconds (_vce).
+ * @param playerTime The time reported on the video player, in milliseconds (_vpt).
+ */
+- (BOOL)trackVideo:(id)view
+           viewId:(NSString *)viewId
+            title:(NSString *)title
+         thumbnail:(NSString *)thumbnail
+      engagedTime:(unsigned int)engagedTime
+         duration:(unsigned int)duration
+        playState:(NSString *)playState
+      contentTime:(unsigned int)contentTime
+       playerTime:(unsigned int)playerTime;
+
+- (void)updateVideoPlayState:(NSString *)playState
+                    duration:(unsigned int)duration
+                engagedTime:(unsigned int)engagedTime
+                contentTime:(unsigned int)contentTime
+                 playerTime:(unsigned int)playerTime;
+
 - (void)setZones:(NSArray *)zones;
 - (void)setAppReferrer:(NSString *)appReferrer;
 
@@ -240,6 +269,7 @@ extern int const kInitialPingInterval;
 @property (nonatomic) UIView * view;
 @property (nonatomic) NSString * viewId;
 @property (nonatomic) NSString * title;
+@property (nonatomic) NSString * thumbnail;
 @property (nonatomic) NSArray * sections;
 @property (nonatomic) NSArray * authors;
 @property (nonatomic) NSArray * zones;
@@ -254,7 +284,14 @@ extern int const kInitialPingInterval;
 @property (nonatomic) NSDictionary<NSString *, NSString *> *idSync;
 @property (nonatomic) BOOL firstPing;
 @property (nonatomic, readonly) double initializationTime;
-
+// Add video-related properties here
+@property (nonatomic, assign) BOOL isTrackingVideo;
+@property (nonatomic, assign) BOOL isCurrentlyTrackingVideo;
+@property (nonatomic, assign) unsigned int videoEngagedTime;
+@property (nonatomic, assign) unsigned int videoDuration;
+@property (nonatomic, strong) NSString *videoPlayState;
+@property (nonatomic, assign) unsigned int videoContentTime;
+@property (nonatomic, assign) unsigned int videoPlayerTime;
 /**
  *  turn debug mode on to enable logs and asserts to help with integration,
  Please make sure the debug mode is off when you are building for official release of your app.

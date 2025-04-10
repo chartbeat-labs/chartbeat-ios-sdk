@@ -86,7 +86,8 @@ engagedSecondsSinceLastPing:(uint)engagedSecondsSinceLastPing
           siteVisitUid:(NSString *)siteVisitUid
      subscriptionState:(NSString *)subscriptionState
   previousSessionToken:(NSString *)previousSessionToken
-                idSync:(NSDictionary<NSString *, NSString *> *)idSync;
+                idSync:(NSDictionary<NSString *, NSString *> *)idSync
+                videoParams:(NSDictionary *)videoParams;
 
 + (NSString *)urlEncode:(NSString *)str;
 
