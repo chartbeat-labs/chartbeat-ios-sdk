@@ -89,6 +89,8 @@ engagedSecondsSinceLastPing:(uint)engagedSecondsSinceLastPing
                 idSync:(NSDictionary<NSString *, NSString *> *)idSync
                 videoParams:(NSDictionary *)videoParams;
 
+- (void)sendConversionPing:(NSDictionary *)params userAgent:(NSString *)userAgent;
+
 + (NSString *)urlEncode:(NSString *)str;
 
 @end

@@ -27,6 +27,116 @@ typedef NS_ENUM(NSUInteger, CBTrackerLogLevel) {
 
 };
 
+typedef NS_ENUM(NSInteger, EventCategory) {
+    EventCategoryOffer,
+    EventCategorySurvey,
+    EventCategoryPaywall,
+    EventCategoryUnsubscribe,
+    EventCategoryRegistration,
+    EventCategoryUserProfileInfo,
+    EventCategoryDownload,
+    EventCategoryDonation,
+    EventCategoryNewsletterSignup,
+    EventCategoryCart,
+    EventCategoryPayment,
+    EventCategorySearch,
+    EventCategorySave,
+    EventCategoryCustom
+};
+
+typedef NS_ENUM(NSInteger, PaywallType) {
+    // Subscription-specific event types
+    EventTypePaywallShown,
+    EventTypePaywallStart,
+    EventTypePaywallComplete,
+    EventTypePaywallCancel
+};
+
+typedef NS_ENUM(NSInteger, RegistrationType) {
+    EventTypeRegistrationShown,
+    EventTypeRegistrationStart,
+    EventTypeRegistrationComplete,
+    EventTypeRegistrationCancel
+};
+
+typedef NS_ENUM(NSInteger, OptionalParameters) {
+    EventTypePathOverride,
+    EventTypeEventLabel,
+    EventTypeEventValue
+};
+
+typedef NS_ENUM(NSInteger, NewsletterType) {
+    EventTypeNewsletterSignupShown,
+    EventTypeNewsletterSignupStart,
+    EventTypeNewsletterSignupComplete,
+    EventTypeNewsletterSignupCancel
+};
+
+typedef NS_ENUM(NSInteger, UnsubscribeType) {
+    EventTypeUnsubscribeShown,
+    EventTypeUnsubscribeStart,
+    EventTypeUnsubscribeComplete,
+    EventTypeUnsubscribeCancel
+};
+
+typedef NS_ENUM(NSInteger, OfferType) {
+    EventTypeOfferShown,
+    EventTypeOfferStart,
+    EventTypeOfferComplete,
+    EventTypeOfferCancel
+};
+
+typedef NS_ENUM(NSInteger, SurveyType) {
+    EventTypeSurveyShown,
+    EventTypeSurveyStart,
+    EventTypeSurveyComplete,
+    EventTypeSurveyCancel
+};
+
+typedef NS_ENUM(NSInteger, AccountCreationType) {
+    EventTypeUserProfileShown,
+    EventTypeUserProfileStart,
+    EventTypeUserProfileComplete,
+    EventTypeUserProfileCancel
+};
+
+typedef NS_ENUM(NSInteger, DownloadsType) {
+    EventTypeDownloadStart,
+    EventTypeDownloadComplete,
+    EventTypeDownloadCancel
+};
+
+typedef NS_ENUM(NSInteger, DonationsType) {
+    EventTypeDonationShown,
+    EventTypeDonationStart,
+    EventTypeDonationComplete,
+    EventTypeDonationCancel,
+};
+
+typedef NS_ENUM(NSInteger, PaymentsType) {
+    EventTypePaymentStart,
+    EventTypePaymentComplete,
+    EventTypePaymentCancel,
+};
+
+typedef NS_ENUM(NSInteger, SearchType) {
+    EventTypeSearchComplete
+};
+
+typedef NS_ENUM(NSInteger, SavesType) {
+    EventTypeSaveComplete
+};
+
+typedef NS_ENUM(NSInteger, EventType) {
+    EventTypeAdd,
+    EventTypeRemove,
+    EventTypeChangeQuantity,
+    EventTypeShown,
+    EventTypeStart,
+    EventTypeComplete,
+    EventTypeCancel
+};
+
 extern NSString * const kChartbeatSDKVersion;
 extern NSString * const kCBPersistenTokenKey;
 extern NSString * const kCBIosUserAgent;
@@ -201,7 +311,87 @@ extern int const kInitialPingInterval;
  */
 - (BOOL)trackView:(id)view viewId:(NSString *)viewId_ title:(NSString *)title_;
 
++ (NSString *)stringForEventType:(EventType)type;
++ (NSString *)stringForPaywallType:(PaywallType)type;
++ (NSString *)stringForEventCategory:(EventCategory)category;
 
+- (void)trackConversionPaywallWithType:(PaywallType)type
+                          pathOverride:(NSString *)pathOverride
+                            eventLabel:(NSString *)eventLabel
+                            eventValue:(NSString *)eventValue;
+- (void)trackConversionPaywallWithType:(PaywallType)type;
+
+- (void)trackConversionRegistrationWithType:(RegistrationType)type
+                          pathOverride:(NSString *)pathOverride
+                            eventLabel:(NSString *)eventLabel
+                            eventValue:(NSString *)eventValue;
+- (void)trackConversionRegistrationWithType:(RegistrationType)type;
+
+- (void)trackConversionNewsletterWithType:(NewsletterType)type
+                          pathOverride:(NSString *)pathOverride
+                            eventLabel:(NSString *)eventLabel
+                            eventValue:(NSString *)eventValue;
+- (void)trackConversionNewsletterWithType:(NewsletterType)type;
+
+- (void)trackConversionUnsubscribeWithType:(UnsubscribeType)type
+                          pathOverride:(NSString *)pathOverride
+                            eventLabel:(NSString *)eventLabel
+                            eventValue:(NSString *)eventValue;
+- (void)trackConversionUnsubscribeWithType:(UnsubscribeType)type;
+
+- (void)trackConversionOffersWithType:(OfferType)type
+                          pathOverride:(NSString *)pathOverride
+                            eventLabel:(NSString *)eventLabel
+                            eventValue:(NSString *)eventValue;
+- (void)trackConversionOffersWithType:(OfferType)type;
+
+- (void)trackConversionSurveysWithType:(SurveyType)type
+                          pathOverride:(NSString *)pathOverride
+                            eventLabel:(NSString *)eventLabel
+                            eventValue:(NSString *)eventValue;
+- (void)trackConversionSurveysWithType:(SurveyType)type;
+
+- (void)trackConversionAccountCreationType:(AccountCreationType)type
+                          pathOverride:(NSString *)pathOverride
+                            eventLabel:(NSString *)eventLabel
+                            eventValue:(NSString *)eventValue;
+- (void)trackConversionAccountCreationType:(AccountCreationType)type;
+
+- (void)trackConversionDownloadsType:(DownloadsType)type
+                          pathOverride:(NSString *)pathOverride
+                            eventLabel:(NSString *)eventLabel
+                            eventValue:(NSString *)eventValue;
+- (void)trackConversionDownloadsType:(DownloadsType)type;
+
+- (void)trackConversionDonationsType:(DonationsType)type
+                          pathOverride:(NSString *)pathOverride
+                            eventLabel:(NSString *)eventLabel
+                            eventValue:(NSString *)eventValue;
+- (void)trackConversionDonationsType:(DonationsType)type;
+
+- (void)trackConversionPaymentsType:(PaymentsType)type
+                          pathOverride:(NSString *)pathOverride
+                            eventLabel:(NSString *)eventLabel
+                            eventValue:(NSString *)eventValue;
+- (void)trackConversionPaymentsType:(PaymentsType)type;
+
+- (void)trackConversionSearchType:(SearchType)type
+                          pathOverride:(NSString *)pathOverride
+                            eventLabel:(NSString *)eventLabel
+                            eventValue:(NSString *)eventValue;
+- (void)trackConversionSearchType:(SearchType)type;
+
+- (void)trackConversionSavesType:(SavesType)type
+                          pathOverride:(NSString *)pathOverride
+                            eventLabel:(NSString *)eventLabel
+                            eventValue:(NSString *)eventValue;
+- (void)trackConversionSavesType:(SavesType)type;
+
+- (void)trackConversionCustomEvent:(NSString *)customEvent
+                          pathOverride:(NSString *)pathOverride
+                            eventLabel:(NSString *)eventLabel
+                            eventValue:(NSString *)eventValue;
+- (void)trackConversionCustomEvent:(NSString *)customEvent;
 /**
  * Start tracking a video view with the specified view, view ID, title, and video-specific parameters.
  *
