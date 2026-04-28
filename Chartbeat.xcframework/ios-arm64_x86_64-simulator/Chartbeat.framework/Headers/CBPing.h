@@ -7,8 +7,26 @@
 #import <CoreLocation/CoreLocation.h>
 #import <CoreGraphics/CoreGraphics.h>
 
-extern NSString * const kCBPingURLBase;
-extern NSString * const kCBPongURLBase;
+extern NSString * const kCBPingHost;
+extern NSString * const kCBPongHost;
+
+
+
+/*
+ * Deprecated: these constants already include a trailing "?" in their value ("https://{ping|pong}.chartbeat.net/ping?")
+ * which prevents appending custom path components before the query string (meaning before ?).
+ * Use kCBPingHost / kCBPongHost instead, which expose the host only (https://{ping|pong}.chartbeat.net)
+ * and lets callers dynamically construct the full URL path themselves
+ * by appending additional path-params like /ping and sometimes /conversion-event and plus "?" at the end before url params
+ *
+ * NOTE: we are not yet deleting these variables because it is possible (but highly unlikely) that someone might be using them direcly
+ * We can fully remove them on major version update (e.g X.Y.Z -> when X position gets bumped in pods version number for chartbeat SDK)
+ */
+extern NSString * const kCBPingURLBase __attribute__((deprecated("Use kCBPingHost instead.")));
+extern NSString * const kCBPongURLBase __attribute__((deprecated("Use kCBPongHost instead.")));
+
+
+
 extern NSString * const kCBPagePathKeyForVideo;
 extern NSString * const kCBPageDomainKeyForVideo;
 extern NSString * const kCBPageAppIdKeyForVideo;
