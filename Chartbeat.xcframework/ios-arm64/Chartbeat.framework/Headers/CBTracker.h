@@ -454,24 +454,24 @@ extern int const kInitialPingInterval;
 - (void)setIdSync:(NSDictionary<NSString *, NSString *> *)idSync;
 
 @property (nonatomic, readonly) uint uid; // Your chartbeat account id
-@property (nonatomic) NSString * appid;
-@property (nonatomic) NSString * suffix;
+@property (nonatomic, copy) NSString * appid;
+@property (nonatomic, copy) NSString * suffix;
 @property (nonatomic) UIView * view;
-@property (nonatomic) NSString * viewId;
-@property (nonatomic) NSString * title;
-@property (nonatomic) NSString * thumbnail;
-@property (nonatomic) NSArray * sections;
-@property (nonatomic) NSArray * authors;
-@property (nonatomic) NSArray * zones;
+@property (nonatomic, copy) NSString * viewId;
+@property (nonatomic, copy) NSString * title;
+@property (nonatomic, copy) NSString * thumbnail;
+@property (nonatomic, copy) NSArray * sections;
+@property (nonatomic, copy) NSArray * authors;
+@property (nonatomic, copy) NSArray * zones;
 @property (nonatomic, readonly) NSString * userToken;
 @property (nonatomic, readonly) NSString * sessionToken;
-@property (nonatomic) NSString * previousSessionToken;
-@property (nonatomic) NSString * appReferrer;
-@property (nonatomic) NSString * domain;
-@property (nonatomic) NSString * subDomain;
-@property (nonatomic) NSString * userAgent;
-@property (nonatomic) NSDictionary *extraParams;
-@property (nonatomic) NSDictionary<NSString *, NSString *> *idSync;
+@property (nonatomic, copy) NSString * previousSessionToken;
+@property (nonatomic, copy) NSString * appReferrer;
+@property (nonatomic, copy) NSString * domain;
+@property (nonatomic, copy) NSString * subDomain;
+@property (nonatomic, copy) NSString * userAgent;
+@property (nonatomic, copy) NSDictionary *extraParams;
+@property (nonatomic, copy) NSDictionary<NSString *, NSString *> *idSync;
 @property (nonatomic) BOOL firstPing;
 @property (nonatomic, readonly) double initializationTime;
 // Add video-related properties here
@@ -479,7 +479,7 @@ extern int const kInitialPingInterval;
 @property (nonatomic, assign) BOOL isCurrentlyTrackingVideo;
 @property (nonatomic, assign) unsigned int videoEngagedTime;
 @property (nonatomic, assign) unsigned int videoDuration;
-@property (nonatomic, strong) NSString *videoPlayState;
+@property (nonatomic, copy) NSString *videoPlayState;
 @property (nonatomic, assign) unsigned int videoContentTime;
 @property (nonatomic, assign) unsigned int videoPlayerTime;
 /**
