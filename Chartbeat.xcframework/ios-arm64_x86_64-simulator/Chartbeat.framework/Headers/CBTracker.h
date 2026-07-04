@@ -231,6 +231,14 @@ extern int const kInitialPingInterval;
      */
     BOOL sendingPings;
     NSString * lastId;
+
+    /**
+     * The external/push referrer that belongs to the currently tracked view.
+     * Captured from `appReferrer` when a view starts, so that the one-shot
+     * referrer applies only to the view it was set for and does not bleed into
+     * subsequent views.
+     */
+    NSString * viewReferrer;
 }
 
 /**
