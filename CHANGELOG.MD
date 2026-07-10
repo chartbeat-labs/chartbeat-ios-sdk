@@ -3,6 +3,10 @@ All notable changes to the Chartbeat iOS SDK  will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [1.5.18] - 2026-07-10
+### Fixed
+- Tracking now resumes after the app returns from the background. Previously, once the app was backgrounded, pings stopped and a new `trackView` did not restart them; `trackView`/`trackVideo` now restart the tracker when it was running before the app was backgrounded.
+
 ## [1.5.17] - 2026-07-04
 ### Fixed
 - Push referrer no longer persists across views. A referrer set via `setPushReferrer:`/`setAppReferrer:` is now cleared after the view it was set for, so an article opened organically after a push-opened one no longer reports the previous push referrer.

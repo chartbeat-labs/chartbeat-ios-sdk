@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/Chartbeat.framework/Chartbeat</key>
 		<data>
-		uqY6BQTgul5cvXoRl12zgmBIPv8=
+		+mdk9fLAlDtdV0rMndIGEEFdLSg=
 		</data>
 		<key>ios-arm64/Chartbeat.framework/Headers/CBPing.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Chartbeat.framework/Versions/A/Chartbeat</key>
 		<data>
-		FeS5ogU6cpuC+nC3gPNg65Th1K0=
+		EXeco/Teol8O9d3F2SB/uhotQEM=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/Chartbeat.framework/Versions/A/Headers/CBPing.h</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Chartbeat.framework/Chartbeat</key>
 		<data>
-		LeWGIAqbVR/oq+5R1CSLlZLVKUY=
+		JSPROEfYYTEsKLIhgRQHIYGHtgo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Chartbeat.framework/Headers/CBPing.h</key>
 		<data>
@@ -88,10 +88,6 @@
 		<data>
 		05T2k/NInqGMbvBtJUpn5xJpZFE=
 		</data>
-		<key>ios-arm64_x86_64-simulator/Chartbeat.framework/_CodeSignature/CodeResources</key>
-		<data>
-		lzWshG77mv4N7ewV9IGrBPT/jIg=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -99,7 +95,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zQ/5ps9TPcSf8V8gs5KEB70IiCDLDzrOb+ijclcyg6Q=
+			k199wO5hth8TQwU33uG+4NekzlnEGN2Gnhqzxn3S1iU=
 			</data>
 		</dict>
 		<key>ios-arm64/Chartbeat.framework/Headers/CBPing.h</key>
@@ -168,7 +164,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gR0QfQBdrPJwDwQJcEIBJF+SxIvrSQVDo4B1PJ+0w9U=
+			lEIwwJCQeABuK6ogZ1p9Q2iorxgeOcagG9v2z6/jNjc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/Chartbeat.framework/Versions/A/Headers/CBPing.h</key>
@@ -222,7 +218,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U6sugq3FePTs5/VHGOUuK08a9UopUeI47BeB4JrOxvE=
+			WeFY6jXs2Ix/Crjxe3zhsCF8n3L8nWmArxQF/3Pol8E=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Chartbeat.framework/Headers/CBPing.h</key>
@@ -265,13 +261,6 @@
 			<key>hash2</key>
 			<data>
 			JGK5jeAD5xN3bpKpTnaZ4qe2nhAUu+WZAsGzBCP0xrE=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/Chartbeat.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			teg4G+YLAoi/DWl8qzJ8gEhrl59bYjnAGA7H1cBWGV8=
 			</data>
 		</dict>
 	</dict>
