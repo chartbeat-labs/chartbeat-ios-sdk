@@ -3,6 +3,11 @@ All notable changes to the Chartbeat iOS SDK  will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [1.5.19] - 2026-07-15
+### Fixed
+- Organically-opened articles are no longer reported as push referrers. For in-app navigation the SDK now sends the internal referrer (`v` = previous view) instead of an empty external referrer (`r`), matching the Android SDK; the backend classified an empty `r` on an app article as a deep-link/push referrer, so every organically-opened article was previously attributed to push. Only the session's entry view (genuinely no referrer) is still attributed to deep-links/push, by design.
+- Bumped the on-the-wire SDK version parameter (`V`) to `1015` so pings from this release are identifiable by exact SDK version.
+
 ## [1.5.18] - 2026-07-10
 ### Fixed
 - Tracking now resumes after the app returns from the background. Previously, once the app was backgrounded, pings stopped and a new `trackView` did not restart them; `trackView`/`trackVideo` now restart the tracker when it was running before the app was backgrounded.
